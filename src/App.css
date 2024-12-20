@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #00796b; /* Teal background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+.App-link {
+  color: #004d40; /* Dark teal color */
+  font-weight: bold; /* Bold text */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles for Navbar */
+.navbar {
+  margin-bottom: 20px;
+  background-color: #004d40; /* Dark teal background color */
+}
+
+.navbar .nav-link {
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+.navbar .nav-link:hover {
+  color: #b2dfdb; /* Light teal color */
+}
+
+.navbar .btn-link {
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+.navbar .btn-link:hover {
+  color: #b2dfdb; /* Light teal color */
+}
+
+.navbar-nav {
+  list-style: none; /* Remove bullet points */
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px; /* Add some spacing between items */
+}
+
+/* Additional styles for forms */
+.form-control {
+  margin-bottom: 15px;
+  font-weight: bold; /* Bold text */
+  background-color: #e0f2f1; /* Light teal background color */
+  color: #004d40; /* Dark teal text color */
+  border: none;
+}
+
+.form-control:focus {
+  background-color: #b2dfdb; /* Light teal background color on focus */
+  color: #004d40; /* Dark teal text color */
+}
+
+.btn-primary {
+  background-color: #00796b; /* Teal background color */
+  border-color: #00796b;
+  font-weight: bold; /* Bold text */
+  color: #fff; /* White text color */
+}
+
+.btn-primary:hover {
+  background-color: #004d40; /* Dark teal background color */
+  border-color: #004d40;
+}
+
+.btn-danger {
+  background-color: #d32f2f; /* Red background color */
+  border-color: #d32f2f;
+  font-weight: bold; /* Bold text */
+  color: #fff; /* White text color */
+}
+
+.btn-danger:hover {
+  background-color: #b71c1c; /* Dark red background color */
+  border-color: #b71c1c;
+}
+
+/* Additional styles for LandingPage */
+.jumbotron {
+  background-color: #e0f2f1; /* Light teal background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron .btn-lg {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: bold; /* Bold text */
+  color: #fff; /* White text color */
+}

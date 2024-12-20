@@ -1,0 +1,28 @@
+.footer {
+  background-color: #0056b3; /* Darker Blue background color */
+  color: #fff; /* White text color */
+  padding: 5px 0; /* Reduce padding */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.875rem; /* Reduce font size */
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .social-icons {
+  margin-top: 5px; /* Reduce margin */
+}
+
+.footer .social-icons a {
+  color: #fff; /* White text color */
+  margin: 0 5px; /* Reduce margin */
+  font-size: 1.25rem; /* Reduce font size */
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #6c757d; /* Gray color on hover */
+}

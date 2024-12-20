@@ -1,0 +1,71 @@
+.navbar {
+  margin-bottom: 20px;
+  background-color: #0056b3; /* Darker Blue background color */
+}
+
+.navbar .navbar-brand {
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 2rem; /* Increase font size */
+  font-family: 'Arial Black', sans-serif; /* Use a bold, sans-serif font */
+  text-transform: uppercase; /* Make text uppercase */
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .nav-link {
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 1.25rem; /* Increase font size */
+  margin-left: 15px; /* Add some spacing between items */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #6c757d; /* Gray color */
+  background-color: #004085; /* Darker background color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.navbar .nav-link.active {
+  background-color: #004085; /* Highlight active link */
+}
+
+.navbar .btn-link {
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 1.25rem; /* Increase font size */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .btn-link:hover {
+  color: #6c757d; /* Gray color */
+  background-color: #004085; /* Darker background color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.navbar-nav {
+  list-style: none; /* Remove bullet points */
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px; /* Add some spacing between items */
+}
+
+/* Custom styles for the company name */
+.company-name {
+  font-size: 1.5rem; /* Increase font size */
+  font-family: 'Arial Black', sans-serif; /* Use a bold, sans-serif font */
+  text-transform: uppercase; /* Make text uppercase */
+}
